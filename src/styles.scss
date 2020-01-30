@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(85, 26, 139);
+}
+
+button {
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: rgb(85, 26, 139);
+  padding: 8px;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+
+  &:focus {
+    border-color: yellow;
+    outline: none;
+  }
+}
+
+input {
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: rgb(85, 26, 139);
+  padding: 8px;
+  font-size: 12px;
+  line-height: 14px;
+  margin-right: 8px;
+  caret-color: yellow;
+
+  &:focus {
+    border-color: yellow;
+    outline: none;
+  }
+}

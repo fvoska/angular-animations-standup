@@ -17,10 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    "strictInjectionParameters": true,
+    "preserveWhitespaces": false
   }
 }

@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="image-and-name">
+    <img [src]="user.avatar">
+
+    <span class="name">
+      {{ user.username }}
+    </span>
+  </div>
+
+  <div class="remove">
+    <button (click)="onRemoveClick()">Kill</button>
+  </div>
+</div>

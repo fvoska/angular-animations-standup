@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  padding: 16px;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+.active {
+  font-weight: bold;
+}

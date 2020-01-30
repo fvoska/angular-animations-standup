@@ -1,0 +1,14 @@
+<form (ngSubmit)="onFormSubmit()">
+  <input name="username" [(ngModel)]="username">
+  <button type="submit">Add user</button>
+</form>
+
+<div class="users-list">
+  <app-user
+    *ngFor="let user of users | sort : compareUser"
+    @enterLeave
+    [@.disabled]="animationDisabled"
+    [user]="user"
+    (remove)="onRemoveUser($event)"
+  ></app-user>
+</div>

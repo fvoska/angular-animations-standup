@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.users-list {
+  padding-top: 8px;
+}
+
+app-user {
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
