@@ -16,11 +16,11 @@ import { User } from '../../models/user.model';
       ]),
       // transition(':enter', [
       //   style({opacity: 0 }),
-      //   animate('250ms ease-in-out', style({ opacity: 1 })),
+      //   animate('2500ms ease-in-out', style({ opacity: 1 })),
       // ]),
       // transition(':leave', [
       //   style({opacity: 1 }),
-      //   animate('250ms ease-in-out', style({ opacity: 0 })),
+      //   animate('2500ms ease-in-out', style({ opacity: 0 })),
       // ]),
     ]),
   ],
